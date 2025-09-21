@@ -16,14 +16,4 @@ A **Retrieval Augmented Generation (RAG)** system that enables users to upload P
 
 ---
 
-## 🏗️ Architecture  
-```mermaid
-flowchart TD
-    A[PDF Upload] --> B[Text Extraction (PyPDF2)]
-    B --> C[Chunking (RecursiveCharacterTextSplitter)]
-    C --> D[Embeddings (NVIDIA nv-embed-v1)]
-    D --> E[ChromaDB Collection]
-    F[User Question] --> G[Embed + Retrieve Top 3 Chunks]
-    G --> H[Prompt Builder with Context + History]
-    H --> I[ChatNVIDIA (meta/llama3-8b-instruct)]
-    I --> J[Answer]
+
