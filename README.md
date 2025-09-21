@@ -1,6 +1,7 @@
 # 📚 RAG Q&A with NVIDIA + ChromaDB + Streamlit  
 
-A **Retrieval Augmented Generation (RAG)** system that enables users to upload PDF documents and ask natural language questions. The system retrieves relevant document chunks using **NVIDIA embeddings + ChromaDB**, and generates accurate answers with **NVIDIA LLMs** — all inside a simple **Streamlit web app**.  
+A **Retrieval Augmented Generation (RAG)** system that enables users to upload PDF documents and ask natural language questions. 
+The system retrieves relevant document chunks using **NVIDIA embeddings + ChromaDB**, and generates accurate answers with **NVIDIA LLMs** — all inside a simple **Streamlit web app**.  
 
 ---
 
